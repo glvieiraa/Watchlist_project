@@ -24,6 +24,7 @@ load_figure_template('SOLAR')
 
 
 app = dash.Dash(__name__, use_pages = True, external_stylesheets= [dbc.themes.SOLAR, dbc_css])
+server = app.server
 
 
 
