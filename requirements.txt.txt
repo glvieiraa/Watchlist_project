@@ -1,5 +1,0 @@
-pandas
-dash_bootstrap_components
-dash == 2.7.0
-base64
-gunicorn
