@@ -10,7 +10,7 @@ import base64
 
 
 
-image_filename = r'https://github.com/glvieiraa/Watchlist_project/tree/main/data/logo.png'
+image_filename = r'logo.png'
 encoded_image = base64.b64encode(open(image_filename, 'rb').read()).decode()
 
 
