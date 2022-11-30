@@ -30,7 +30,7 @@ server = app.server
 
 app.layout = html.Div(
     [
-        html.Img(id='logo_png', src='data:image/png;base64,{}'.format((encoded_image)), style={'height':'8%', 'width':'8%','textAlign':'center'}),#<------------ Seeking BRA logo
+        #html.Img(id='logo_png', src='data:image/png;base64,{}'.format((encoded_image)), style={'height':'8%', 'width':'8%','textAlign':'center'}),#<------------ Seeking BRA logo
         html.H2("Navegue usando os menus abaixo", style={'textAlign':'center'}),
         
     html.Div(
